@@ -1,0 +1,95 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 5vh;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #fa0000;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="checkbox"] {
+    width: 24px; /* Size of the custom checkbox */
+    height: 24px; /* Size of the custom checkbox */
+}
+
+.form-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-container input[type="text"] {
+    padding: 8px;
+    width: 70%;
+}
+
+.form-container button {
+    padding: 8px 16px;
+}
+
+.edit-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.edit-form input[type="text"] {
+    flex: 1;
+    padding: 4px;
+}
+
+.edit-form button {
+    margin-left: 10px;
+}
